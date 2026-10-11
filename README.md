@@ -102,3 +102,59 @@ The project will be considered successful if:
 - Development and testing will initially be performed locally.
 - The project will use free or freely available development tools where possible.
 - Advanced features such as real-time collaboration and complex notifications are outside the initial scope.
+
+## 9. MoSCoW Prioritization
+
+The MoSCoW method is used to prioritize TaskMate's user stories according to their importance for the initial release.
+
+### Must Have
+
+These features are essential for the core application to function.
+
+| ID | User Story |
+|---|---|
+| US01 | Create a student account |
+| US02 | Student login |
+| US04 | View dashboard |
+| US05 | Add assignment |
+| US06 | Set assignment deadline |
+| US09 | Edit assignment |
+| US11 | View all assignments |
+| US12 | Mark task completed |
+
+### Should Have
+
+These features improve task organization and usability but are not essential for the first working version.
+
+| ID | User Story |
+|---|---|
+| US03 | Student logout |
+| US07 | Add assignment description |
+| US08 | Set task priority |
+| US10 | Delete assignment |
+| US13 | View pending tasks |
+| US14 | View completed tasks |
+| US15 | Identify overdue tasks |
+| US16 | Organize tasks by subject |
+| US18 | Filter tasks by status |
+| US20 | View upcoming deadlines |
+| US22 | View assignment details |
+
+### Could Have
+
+These features provide additional convenience and can be implemented if time permits.
+
+| ID | User Story |
+|---|---|
+| US17 | Filter tasks by priority |
+| US19 | Search assignments |
+| US21 | View task statistics |
+| US23 | Receive deadline reminders |
+| US24 | Update profile |
+| US25 | Use a responsive interface |
+
+### Won't Have in the Initial Release
+
+No user stories are permanently excluded from the project. However, advanced deadline notifications and profile management may be deferred if they exceed the available development time.
+
+This prioritization keeps the first release focused on creating, viewing, updating, and completing assignments while leaving room for future improvements.

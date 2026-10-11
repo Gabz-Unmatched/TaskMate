@@ -158,3 +158,64 @@ These features provide additional convenience and can be implemented if time per
 No user stories are permanently excluded from the project. However, advanced deadline notifications and profile management may be deferred if they exceed the available development time.
 
 This prioritization keeps the first release focused on creating, viewing, updating, and completing assignments while leaving room for future improvements.
+
+## 10. Repository Structure
+
+The project will use a modular folder structure to separate the frontend, backend, documentation, and configuration files.
+
+```text
+TaskMate/
+├── frontend/
+├── backend/
+├── docs/
+├── .gitignore
+├── docker-compose.yml
+└── README.md
+```
+
+The structure may be expanded as implementation progresses.
+
+## 11. Branching Strategy
+
+TaskMate will follow **GitHub Flow**, a lightweight branching strategy suitable for small development projects.
+
+- `main`: Contains the stable version of the project.
+- `feature/*`: Used to develop individual features.
+- Changes will be committed to feature branches before being merged into `main`.
+- Each feature branch should focus on one task or improvement.
+
+Example feature branches:
+
+- `feature/task-dashboard`
+- `feature/assignment-management`
+- `feature/docker-setup`
+
+At least one feature branch will be created and documented during development.
+
+## 12. Local Development Tools
+
+The project will use the following tools:
+
+| Tool | Purpose |
+|---|---|
+| Visual Studio Code | Code editing |
+| Git | Version control |
+| GitHub | Repository hosting and issue tracking |
+| React | Frontend user interface |
+| Node.js and Express | Backend API |
+| SQLite | Database |
+| Docker Desktop | Containerization and local development |
+| Figma | UI wireframes |
+| Draw.io | Architecture diagram |
+
+## 13. Quick Start – Local Development
+
+The application will be configured to run locally using Docker. The exact commands and configuration will be added and verified after implementation.
+
+Prerequisites:
+
+- Git
+- Node.js and npm
+- Docker Desktop
+
+The application will be tested locally before the final submission. Successful Docker execution and browser screenshots will be included as evidence.

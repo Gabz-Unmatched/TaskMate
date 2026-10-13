@@ -129,7 +129,7 @@ The 25 user stories are tracked as GitHub Issues and organised in the TaskMate D
 
 ## Architecture
 
-The architecture diagram will be included with the project submission.
+
 
 ## Future Improvements
 

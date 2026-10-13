@@ -129,6 +129,7 @@ The 25 user stories are tracked as GitHub Issues and organised in the TaskMate D
 
 ## Architecture
 
+![TaskMate Architecture](design/TaskMate_Architecture.png)
 
 
 ## Future Improvements

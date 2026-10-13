@@ -127,9 +127,21 @@ Verify the frontend, test the backend API, and confirm that assignment changes p
 
 The 25 user stories are tracked as GitHub Issues and organised in the TaskMate Development project.
 
-## Architecture
 
-![TaskMate Architecture](design/TaskMate_Architecture.png)
+## Software Design
+
+TaskMate uses a React/Vite frontend and a Node.js backend to separate user interface responsibilities from server-side processing. The design emphasizes abstraction, modularity, cohesion, and low coupling to improve maintainability. Reusable React components and consistent UI layouts support a clear user experience and provide a foundation for future enhancements.
+
+### Architecture
+
+- [View Architecture Diagram](design/TaskMate_Architecture.png)
+- [View Editable Draw.io Diagram](design/TaskMate_Architecture.drawio)
+
+### User Interface Design
+
+- [View Figma Screenshots](design/Figma_Screenshots/)
+- [Figma Prototype: ](https://www.figma.com/design/knv54UHiaYUX8HKkbIstkb/TaskMate-%E2%80%94-UI-Wireframes?node-id=3-13&t=Lepu6JWv2d70h0Qm-1)
+
 
 
 ## Future Improvements

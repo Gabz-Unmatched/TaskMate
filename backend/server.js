@@ -88,6 +88,12 @@ app.delete('/api/assignments/:id', (req, res) => {
   res.json({ success: true });
 });
 
-app.listen(5000, () => {
-  console.log('TaskMate API running at http://localhost:5000');
-});
+if (require.main === module) {
+  app.listen(5000, () => {
+    console.log('TaskMate API running at http://localhost:5000');
+  });
+}
+
+app.closeDatabase = () => db.close();
+
+module.exports = app;
